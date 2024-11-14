@@ -46,7 +46,9 @@ export default function App() {
       <Heading level={1}>My Profile</Heading>
 
       <Divider />
-
+      <Heading level={1}>~AUSTIN YAROSLASKI~</Heading>
+      <Heading level={2}>Fall 2024</Heading>
+      <Heading level={2}>CSCE 3420</Heading>
       <Grid
         margin="3rem 0"
         autoFlow="column"
@@ -73,6 +75,7 @@ export default function App() {
         ))}
       </Grid>
       <Button onClick={signOut}>Sign Out</Button>
+      
     </Flex>
   );
 }
